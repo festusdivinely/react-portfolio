@@ -1,0 +1,49 @@
+.changeWebsite {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 10000;
+}
+
+.settingsIconCont {
+  width: 40px;
+  padding: 5px;
+  padding-left: 10px;
+  background-color: #f0e9e9;
+  border-radius: 25px 0 0 25px;
+}
+
+.MinusCont {
+  padding: 5px;
+  background-color: #eee6e6;
+}
+
+.plusCont {
+  padding: 5px;
+  background-color: #eee6e6;
+
+  padding-right: 10px;
+  border-radius: 0 25px 25px 0;
+}
+
+.settingsIcon,
+.minusIcon,
+.plusIcon {
+  color: #000;
+}
+
+.minusIcon {
+  margin-right: 10px;
+}
+
+.settingsIcon:hover,
+.minusIcon:hover,
+.plusIcon:hover:hover {
+  position: relative;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #706c6c;
+}
